@@ -3,7 +3,7 @@
 ## 🔧 Project Structure
 
 - `data/stores_sales_forecasting.csv`: The sales dataset
-- `data/demand_forecasting_in_supply_chain.p`: Main exploratory and modeling notebook.
+- `data/demand_forecasting_in_supply_chain.py`: Main exploratory and modeling notebook.
   
 ## 🌟 Background
 Perusahaan retail furniture memeiliki data penjualan toko selama tahun 2014 hingga 2017. Data ini terdiri dari 21 fitur dan 2121 baris yang berisi jumlah produk terjual, cabang, keuntungan, diskon, dan rincian lainnya terkait retail furnitur. Dari data ini, perusahaan ingin memprediksi sales pada tahun 2018.
