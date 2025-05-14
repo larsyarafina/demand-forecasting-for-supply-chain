@@ -27,7 +27,7 @@ Terlihat bahwa grafik naik turun tanpa kecenderungan pola tertentu. Namun, pada 
 
 Dari grafik tren sales berdasarkan region, setiap region mengalami profit negatif untuk beberapa periode bulan-tahun tertentu. Terlihat bahwa pada bulan januari tahun 2015 dan pertengahan tahun 2017, sales mencapai nilai terendah pada hampir semua region, kecuali daerah 'west' dan 'east' berturut-turut. Pada bulan juli tahun 2015, sales daerah 'east' mencapai nilai yang rendah sementara ketiga region lainnya mengalami kenaikan. Kedua kondisi ini merupakan salah satu kondisi yang perlu diperhatikan untuk pertimbangan selanjutnya.
 
-![Sales per Bulan dan Tahun Berdasarkan Sub-Kategori](sales_trend_category.png)
+![Sales per Bulan dan Tahun Berdasarkan Sub-Kategori](data/sales_trend_category.png)
 
 Dari grafik tren sales berdasarkan sub-kategori, barang yang perlu diperhatikan adalah “Tables” dan “Bookcases” yang memiliki grafik dengan nilai rendah. Penjualan "Tables" terlihat sangat menurun selama bulan Januari tahun 2015 dan 2018. Kedua kategori barang ini menjadi hal yang perlu diperhatikan dalam pertimbangan lebih lanjut.
 
@@ -57,11 +57,12 @@ Dari grafik, terlihat bahwa eror yang dihasilkan atau perbandingan nilai prediks
 |-------------------|---------------| ---------------|----------------|
 | RMSE              | 11521.51      | 4473.38        | 5269.74        |
 | MAE               | 8315.92       | 3747.02        | 4103.16        |
+
 Dari ketiga forecast model, yang memiliki eror paling kecil adalah *Seasonal Naive Forecast* sehingga disimpulkan model ini adalah model terbaik dari ketiganya.
 
 ## 🌟 Prediction and Recommendation
 Dengan menggunakan model Seasonal Naive Forecast, dilakukan prediksi sales pada tahun 2018 berdasarkan data yang ada.
-![2018 Prediction](predict_2018.png)
+![2018 Prediction](data/predict_2018.png)
 
 Dari hasil prediksi, terlihat bahwa tren akan dimulai dengan nilai yang cukup rendah, lalu semakin naik seiring bertambahnya waktu. Dalam hal ini, tindakan yang dapat dilakukan adalah meminimalisir atau mengurangi produksi di awal tahun dikarenakan penjualan diprediksi rendah. Lalu, semakin menuju pertengahan dan akhir tahun, produksi dapat ditambah secara bertahap karena tren diprediksi naik secara signifikan menuju akhir tahun.
 
